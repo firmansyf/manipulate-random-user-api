@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 .App {
-  background-color: rgb(8, 9, 31);
+  background-color: rgb(249, 251, 254);
+  width: 100vw;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-}
-
-
-table thead th {
-  color: aliceblue;
-  padding-left: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
