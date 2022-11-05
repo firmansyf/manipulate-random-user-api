@@ -136,7 +136,7 @@ function App() {
   return (
     <>
       <div className="d-flex justify-content-center m-3">
-        <span>Manipulate Random User</span>
+        <span style={{ color: "red" }}>Manipulate Random User</span>
       </div>
       <Card />
     </>
