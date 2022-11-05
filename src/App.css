@@ -1,12 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+body {
+  overflow: hidden;
+}
+
 .App {
-  background-color: rgb(249, 251, 254);
+  background-color: #eee;
   width: 100vw;
   min-height: 100vh;
   display: flex;
-  align-items: center; 
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +30,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {
