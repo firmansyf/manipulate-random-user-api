@@ -2,4 +2,4 @@
 
 ## Manipulate Random User App with Reactjs
 
-link : https://randomuser.me/
+api link : https://randomuser.me/
